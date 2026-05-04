@@ -1,0 +1,11 @@
+# Beinecke MS 408 PDF (115MB — exceeds GitHub 100MB limit)
+scans/voynich_MS408.pdf
+
+# Page-by-page JPG conversions (23MB, 214 files — derivable from PDF)
+scans/pages/
+
+# OS / editor
+.DS_Store
+*.swp
+__pycache__/
+*.pyc
