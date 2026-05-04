@@ -9,3 +9,11 @@ scans/pages/
 *.swp
 __pycache__/
 *.pyc
+
+# Python venv
+.venv/
+
+# Phase 3+ large model files
+artifacts/embeddings/*.bin
+artifacts/embeddings/*.kv.vectors.npy
+artifacts/embeddings/*.npy

@@ -1,0 +1,43 @@
+=== Phase 1 Gate Verification ===
+Folios: 226
+Lines: 5225
+Tokens (total): 37982
+Unique token types: 9439
+
+Currier A/B distribution (folios):
+currier_lang
+A    114
+B     82
+      30
+Name: count, dtype: int64
+
+Section distribution (folios):
+section
+herbal            129
+recipes            25
+biological         19
+pharmaceutical     16
+zodiac             12
+cosmological       10
+astronomical        8
+text                7
+Name: count, dtype: int64
+
+Scribe distribution:
+scribe
+1    113
+2     46
+3     33
+4     26
+5      7
+@      1
+Name: count, dtype: int64
+
+Tokens by Currier:
+currier_lang
+B    23385
+A    11364
+      3233
+Name: count, dtype: int64
+
+✅ Phase 1 gate PASSED

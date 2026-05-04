@@ -1,0 +1,29 @@
+=== Phase 2 Statistical Baseline ===
+
+Tokens: 37,982  Types: 9,439
+
+Character entropy H1: 4.210 bits/char
+2nd-order conditional entropy h2: 2.172 bits/char
+  → Bowern & Lindemann 2021 target: ≈ 2
+
+Zipf alpha: 1.038  (R² = 0.983)
+  → Target: ≈ 1
+
+Word length: mean=5.53, std=2.40, max=32
+  → Target: ~5.0
+
+Currier A h2: 2.228  | B h2: 2.025
+
+Currier A/B distinction (cross-entropy NLL bits):
+  within A→A: 6.341
+  within B→B: 6.261
+  across A→B: 6.687  (Δ = +0.346)
+  across B→A: 6.705  (Δ = +0.443)
+
+=== Gate Evaluation ===
+  h2 in [1.5, 2.5]:           True  (2.172)
+  zipf in [0.7, 1.5]:         True  (1.038)
+  word length in [4, 6.5]:    True  (5.53)
+  Currier A/B distinguishable: True
+
+✅ Phase 2 gate PASSED (4/4 checks)

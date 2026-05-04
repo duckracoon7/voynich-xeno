@@ -1,0 +1,65 @@
+{
+  "all": {
+    "n_tokens": 37982,
+    "n_types": 9439,
+    "H1_bits_per_char": 4.209687063789139,
+    "H2_bits_per_char": 2.171811390695746,
+    "zipf_alpha": 1.037844235665304,
+    "zipf_r2": 0.9827801278955234,
+    "word_length": {
+      "mean": 5.533805486809541,
+      "std": 2.395167045092365,
+      "median": 5.0,
+      "min": 1,
+      "max": 32,
+      "histogram": {
+        "6": 6554,
+        "4": 6240,
+        "2": 2305,
+        "10": 1188,
+        "5": 8147,
+        "8": 2071,
+        "1": 1024,
+        "3": 3171,
+        "7": 4082,
+        "11": 684,
+        "9": 1823,
+        "13": 172,
+        "14": 76,
+        "12": 355,
+        "15": 42,
+        "22": 1,
+        "17": 4,
+        "16": 22,
+        "19": 5,
+        "18": 4,
+        "23": 2,
+        "20": 5,
+        "21": 3,
+        "32": 1,
+        "26": 1
+      }
+    }
+  },
+  "currier_A": {
+    "n_tokens": 11364,
+    "H2_bits_per_char": 2.2282449591097118
+  },
+  "currier_B": {
+    "n_tokens": 23385,
+    "H2_bits_per_char": 2.0246617372073974
+  },
+  "currier_distinction_nll_bits": {
+    "within_A_to_A_split": 6.340639799704258,
+    "within_B_to_B_split": 6.261135731976208,
+    "across_A_to_B": 6.686784529681573,
+    "across_B_to_A": 6.704610572353603,
+    "across_minus_within_A": 0.3461447299773148,
+    "across_minus_within_B": 0.4434748403773954
+  },
+  "literature_targets": {
+    "h2_target": "≈ 2 (Bowern & Lindemann 2021)",
+    "zipf_alpha_target": "≈ 1 (Montemurro & Zanette 2013)",
+    "word_length_mean_target": "≈ 5.0 (Reddy & Knight 2011)"
+  }
+}
