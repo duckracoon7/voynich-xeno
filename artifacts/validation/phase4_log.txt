@@ -1,0 +1,44 @@
+/Users/aiden-kwak/Desktop/Personal/boinichi/scripts/phase4_validate.py:71: UserWarning: you are shuffling a 'ArrowStringArray' object which is not a subclass of 'Sequence'; `shuffle` is not guaranteed to behave correctly. E.g., non-numpy array/tensor objects with view semantics may contain duplicates after shuffling.
+  rng.shuffle(folios)
+=== Phase 4 Intrinsic Validation (model = w2v_ALL_256) ===
+
+[1/4] Holdout token coverage...
+{
+  "holdout_folios": 45,
+  "holdout_tokens": 8715,
+  "vocab_coverage": 0.7734939759036145,
+  "passed": true
+}
+
+[2/4] Unsupervised clustering vs section labels...
+{
+  "n_folios_with_embedding": 226,
+  "n_sections": 8,
+  "ari": 0.23876398002059748,
+  "nmi": 0.46951346588125675,
+  "passed": true
+}
+
+[3/4] Frequency-norm correlation (distribution preservation)...
+{
+  "n_words": 1631,
+  "spearman_freq_vs_norm": 0.7091266564734021,
+  "p_value": 1.6842103056164489e-249,
+  "passed": true
+}
+
+[4/4] Shuffle baseline (training new models — slower)...
+{
+  "ari_original_corpus": 0.25778334817343546,
+  "ari_shuffled_corpus": 0.21852780692696078,
+  "delta": 0.03925554124647468,
+  "passed": false
+}
+
+=== Gate Evaluation: 3/4 tests passed ===
+  ✅ test_1_holdout
+  ✅ test_2_clustering
+  ✅ test_3_distribution
+  ❌ test_4_shuffle
+
+✅ Phase 4 gate PASSED (3/4) — Phase 5 enabled

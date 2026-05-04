@@ -1,0 +1,13 @@
+Detailed-only folios: 102
+
+=== Phase 5b Detailed-Only Mapping ===
+Train/Test: 81/21
+
+Method 1 — Procrustes:
+  Recall@1=0.2381  @5=0.7619  @10=0.9048  MRR=0.4196
+Method 2 — Ridge:
+  Recall@1=0.1905  @5=0.7619  @10=0.8095  MRR=0.3928
+
+Random baseline@1: 0.0476
+Threshold (5×): 0.2381
+Procrustes pass: True | Ridge pass: False | Consensus: False

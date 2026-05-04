@@ -1,0 +1,26 @@
+{
+  "scope": "detailed observations only (excludes 124 herbal placeholders)",
+  "n_total_folios": 102,
+  "n_train": 81,
+  "n_test": 21,
+  "method_1_procrustes": {
+    "n_test": 21,
+    "recall_at_1": 0.23809523809523808,
+    "recall_at_5": 0.7619047619047619,
+    "recall_at_10": 0.9047619047619048,
+    "mrr": 0.41964285714285715,
+    "random_baseline_at_1": 0.047619047619047616
+  },
+  "method_2_ridge": {
+    "n_test": 21,
+    "recall_at_1": 0.19047619047619047,
+    "recall_at_5": 0.7619047619047619,
+    "recall_at_10": 0.8095238095238095,
+    "mrr": 0.39282106782106785,
+    "random_baseline_at_1": 0.047619047619047616
+  },
+  "threshold": "recall@1 >= 5.0 × random (0.2381)",
+  "method_1_passed": true,
+  "method_2_passed": false,
+  "consensus": false
+}

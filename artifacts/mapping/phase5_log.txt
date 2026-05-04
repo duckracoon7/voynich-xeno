@@ -1,0 +1,24 @@
+Total folios with both vectors: 226
+
+=== Phase 5 Image-Text Mapping ===
+Train/Test: 180/46
+Vision dim: 40  |  Text dim: 256
+
+Method 1 — Procrustes (orthogonal):
+  Recall@1  = 0.1087  (random: 0.0217)
+  Recall@5  = 0.3913
+  Recall@10 = 0.4783
+  MRR       = 0.2324
+
+Method 2 — Ridge regression:
+  Recall@1  = 0.0870  (random: 0.0217)
+  Recall@5  = 0.4348
+  Recall@10 = 0.5217
+  MRR       = 0.2289
+
+Threshold: Recall@1 >= 5×random (0.1087)
+  Procrustes passed: True
+  Ridge passed:      False
+  Consensus:         False
+
+⚠️  Phase 5 partial signal (one method only)

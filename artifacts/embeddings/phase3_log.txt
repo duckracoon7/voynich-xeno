@@ -1,0 +1,38 @@
+Exception ignored in: 'gensim.models.word2vec_inner.our_dot_float'
+
+=== Currier ALL: 4369 sentences ===
+  w2v_ALL_128: vocab=1,631  elapsed=0.38s
+  w2v_ALL_256: vocab=1,631  elapsed=0.51s
+  w2v_ALL_512: vocab=1,631  elapsed=0.82s
+  ft_ALL_128: vocab=1,631  elapsed=1.46s
+  ft_ALL_256: vocab=1,631  elapsed=2.96s
+  ft_ALL_512: vocab=1,631  elapsed=5.41s
+
+=== Currier A: 1568 sentences ===
+  w2v_A_128: vocab=610  elapsed=0.16s
+  w2v_A_256: vocab=610  elapsed=0.24s
+  w2v_A_512: vocab=610  elapsed=0.4s
+  ft_A_128: vocab=610  elapsed=1.06s
+  ft_A_256: vocab=610  elapsed=1.91s
+  ft_A_512: vocab=610  elapsed=3.98s
+
+=== Currier B: 2468 sentences ===
+  w2v_B_128: vocab=1,075  elapsed=0.28s
+  w2v_B_256: vocab=1,075  elapsed=0.41s
+  w2v_B_512: vocab=1,075  elapsed=0.67s
+  ft_B_128: vocab=1,075  elapsed=1.31s
+  ft_B_256: vocab=1,075  elapsed=2.35s
+  ft_B_512: vocab=1,075  elapsed=4.58s
+
+=== Summary ===
+dim                       128   256   512
+model_type currier_lang                  
+ft         A              610   610   610
+           ALL           1631  1631  1631
+           B             1075  1075  1075
+w2v        A              610   610   610
+           ALL           1631  1631  1631
+           B             1075  1075  1075
+
+✅ Phase 3 embedding training complete
+   Models saved: 18 files in /Users/aiden-kwak/Desktop/Personal/boinichi/artifacts/embeddings

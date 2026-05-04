@@ -1,0 +1,28 @@
+{
+  "main_model": "w2v_ALL_256",
+  "n_total_folios": 226,
+  "n_train": 180,
+  "n_test": 46,
+  "vision_feature_dim": 40,
+  "text_embed_dim": 256,
+  "method_1_procrustes": {
+    "n_test": 46,
+    "recall_at_1": 0.10869565217391304,
+    "recall_at_5": 0.391304347826087,
+    "recall_at_10": 0.4782608695652174,
+    "mrr": 0.23243407287798323,
+    "random_baseline_at_1": 0.021739130434782608
+  },
+  "method_2_ridge": {
+    "n_test": 46,
+    "recall_at_1": 0.08695652173913043,
+    "recall_at_5": 0.43478260869565216,
+    "recall_at_10": 0.5217391304347826,
+    "mrr": 0.22893355193305964,
+    "random_baseline_at_1": 0.021739130434782608
+  },
+  "threshold": "recall@1 >= 5.0 × random (0.1087)",
+  "method_1_passed": true,
+  "method_2_passed": false,
+  "consensus": false
+}

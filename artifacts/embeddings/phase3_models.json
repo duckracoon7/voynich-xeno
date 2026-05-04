@@ -1,0 +1,308 @@
+[
+  {
+    "model_type": "w2v",
+    "dim": 128,
+    "n_sentences": 4369,
+    "vocab_size": 1631,
+    "elapsed_seconds": 0.38,
+    "config": {
+      "vector_size": 128,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "ALL",
+    "saved": "w2v_ALL_128.kv"
+  },
+  {
+    "model_type": "w2v",
+    "dim": 256,
+    "n_sentences": 4369,
+    "vocab_size": 1631,
+    "elapsed_seconds": 0.51,
+    "config": {
+      "vector_size": 256,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "ALL",
+    "saved": "w2v_ALL_256.kv"
+  },
+  {
+    "model_type": "w2v",
+    "dim": 512,
+    "n_sentences": 4369,
+    "vocab_size": 1631,
+    "elapsed_seconds": 0.82,
+    "config": {
+      "vector_size": 512,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "ALL",
+    "saved": "w2v_ALL_512.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 128,
+    "n_sentences": 4369,
+    "vocab_size": 1631,
+    "elapsed_seconds": 1.46,
+    "config": {
+      "vector_size": 128,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "ALL",
+    "saved": "ft_ALL_128.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 256,
+    "n_sentences": 4369,
+    "vocab_size": 1631,
+    "elapsed_seconds": 2.96,
+    "config": {
+      "vector_size": 256,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "ALL",
+    "saved": "ft_ALL_256.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 512,
+    "n_sentences": 4369,
+    "vocab_size": 1631,
+    "elapsed_seconds": 5.41,
+    "config": {
+      "vector_size": 512,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "ALL",
+    "saved": "ft_ALL_512.kv"
+  },
+  {
+    "model_type": "w2v",
+    "dim": 128,
+    "n_sentences": 1568,
+    "vocab_size": 610,
+    "elapsed_seconds": 0.16,
+    "config": {
+      "vector_size": 128,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "A",
+    "saved": "w2v_A_128.kv"
+  },
+  {
+    "model_type": "w2v",
+    "dim": 256,
+    "n_sentences": 1568,
+    "vocab_size": 610,
+    "elapsed_seconds": 0.24,
+    "config": {
+      "vector_size": 256,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "A",
+    "saved": "w2v_A_256.kv"
+  },
+  {
+    "model_type": "w2v",
+    "dim": 512,
+    "n_sentences": 1568,
+    "vocab_size": 610,
+    "elapsed_seconds": 0.4,
+    "config": {
+      "vector_size": 512,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "A",
+    "saved": "w2v_A_512.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 128,
+    "n_sentences": 1568,
+    "vocab_size": 610,
+    "elapsed_seconds": 1.06,
+    "config": {
+      "vector_size": 128,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "A",
+    "saved": "ft_A_128.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 256,
+    "n_sentences": 1568,
+    "vocab_size": 610,
+    "elapsed_seconds": 1.91,
+    "config": {
+      "vector_size": 256,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "A",
+    "saved": "ft_A_256.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 512,
+    "n_sentences": 1568,
+    "vocab_size": 610,
+    "elapsed_seconds": 3.98,
+    "config": {
+      "vector_size": 512,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "A",
+    "saved": "ft_A_512.kv"
+  },
+  {
+    "model_type": "w2v",
+    "dim": 128,
+    "n_sentences": 2468,
+    "vocab_size": 1075,
+    "elapsed_seconds": 0.28,
+    "config": {
+      "vector_size": 128,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "B",
+    "saved": "w2v_B_128.kv"
+  },
+  {
+    "model_type": "w2v",
+    "dim": 256,
+    "n_sentences": 2468,
+    "vocab_size": 1075,
+    "elapsed_seconds": 0.41,
+    "config": {
+      "vector_size": 256,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "B",
+    "saved": "w2v_B_256.kv"
+  },
+  {
+    "model_type": "w2v",
+    "dim": 512,
+    "n_sentences": 2468,
+    "vocab_size": 1075,
+    "elapsed_seconds": 0.67,
+    "config": {
+      "vector_size": 512,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "B",
+    "saved": "w2v_B_512.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 128,
+    "n_sentences": 2468,
+    "vocab_size": 1075,
+    "elapsed_seconds": 1.31,
+    "config": {
+      "vector_size": 128,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "B",
+    "saved": "ft_B_128.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 256,
+    "n_sentences": 2468,
+    "vocab_size": 1075,
+    "elapsed_seconds": 2.35,
+    "config": {
+      "vector_size": 256,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "B",
+    "saved": "ft_B_256.kv"
+  },
+  {
+    "model_type": "ft",
+    "dim": 512,
+    "n_sentences": 2468,
+    "vocab_size": 1075,
+    "elapsed_seconds": 4.58,
+    "config": {
+      "vector_size": 512,
+      "window": 5,
+      "min_count": 3,
+      "workers": 4,
+      "epochs": 20,
+      "seed": 42
+    },
+    "currier_lang": "B",
+    "saved": "ft_B_512.kv"
+  }
+]
