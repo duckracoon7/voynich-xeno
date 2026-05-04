@@ -1,0 +1,209 @@
+{
+  "n_pairs_tested": 50,
+  "n_perm": 1000,
+  "n_significant_at_0.05": 50,
+  "n_significant_at_0.01": 50,
+  "fraction_significant_05": 1.0,
+  "top_pairs": [
+    {
+      "token": "qol",
+      "feature": "n_nymphs",
+      "observed_npmi": 0.7046773940863115,
+      "null_mean": -0.0354934141608935,
+      "null_std": 0.19760456213569744,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qol",
+      "feature": "n_pools",
+      "observed_npmi": 0.7100068354905663,
+      "null_mean": -0.03706084319837827,
+      "null_std": 0.2269496885439799,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qol",
+      "feature": "has_water",
+      "observed_npmi": 0.6844046727263834,
+      "null_mean": -0.03409251054463843,
+      "null_std": 0.19966355927391471,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qokeedy",
+      "feature": "n_paragraphs",
+      "observed_npmi": 0.5926950162412086,
+      "null_mean": -0.009637661501060489,
+      "null_std": 0.10526542941921845,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qokedy",
+      "feature": "n_nymphs",
+      "observed_npmi": 0.6342191033024228,
+      "null_mean": -0.020958848839202394,
+      "null_std": 0.16061256158432338,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qokain",
+      "feature": "n_nymphs",
+      "observed_npmi": 0.6342191033024228,
+      "null_mean": -0.01914389447634365,
+      "null_std": 0.1540585876399601,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "lkeey",
+      "feature": "n_paragraphs",
+      "observed_npmi": 0.7056176326752249,
+      "null_mean": -0.07858622008926931,
+      "null_std": 0.30050252173625486,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qokeedy",
+      "feature": "n_decorative_motifs",
+      "observed_npmi": 0.575858425275474,
+      "null_mean": -0.014063188539883751,
+      "null_std": 0.10326742755562363,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "cheeo",
+      "feature": "n_paragraphs",
+      "observed_npmi": 0.745048991387023,
+      "null_mean": -0.15597248173465375,
+      "null_std": 0.40314415353197963,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "lkeey",
+      "feature": "n_decorative_motifs",
+      "observed_npmi": 0.6911583025511481,
+      "null_mean": -0.06126478005059372,
+      "null_std": 0.2753143466287681,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qokedy",
+      "feature": "has_water",
+      "observed_npmi": 0.6135037134423165,
+      "null_mean": -0.027318083659780133,
+      "null_std": 0.13831838844783334,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qokain",
+      "feature": "has_water",
+      "observed_npmi": 0.6135037134423165,
+      "null_mean": -0.02919409229101393,
+      "null_std": 0.1603508574047358,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "lkar",
+      "feature": "n_paragraphs",
+      "observed_npmi": 0.687630374570646,
+      "null_mean": -0.0597428059417251,
+      "null_std": 0.27018045795833867,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "cheeo",
+      "feature": "n_decorative_motifs",
+      "observed_npmi": 0.7313142560041924,
+      "null_mean": -0.15191275951534028,
+      "null_std": 0.39675974749840853,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "{ch'}e@152;y",
+      "feature": "n_pools",
+      "observed_npmi": 0.8298150172349761,
+      "null_mean": -0.4080068101179461,
+      "null_std": 0.5529977588377941,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qol",
+      "feature": "n_pipes",
+      "observed_npmi": 0.67724473960388,
+      "null_mean": -0.06870662171661075,
+      "null_std": 0.2711121066446054,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "lkar",
+      "feature": "n_decorative_motifs",
+      "observed_npmi": 0.6731710444465691,
+      "null_mean": -0.06966500769748454,
+      "null_std": 0.28383105936779585,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "oteedy",
+      "feature": "n_paragraphs",
+      "observed_npmi": 0.5828110464620107,
+      "null_mean": -0.014414968788375162,
+      "null_std": 0.11615761875347551,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "qokaiin",
+      "feature": "n_paragraphs",
+      "observed_npmi": 0.5239822753671958,
+      "null_mean": -0.0068956850972295616,
+      "null_std": 0.08882340958574689,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    },
+    {
+      "token": "oteedy",
+      "feature": "n_decorative_motifs",
+      "observed_npmi": 0.5666362406778975,
+      "null_mean": -0.013613869439608626,
+      "null_std": 0.11810038250488927,
+      "p_value": 0.0,
+      "significant_at_0.05": true,
+      "significant_at_0.01": true
+    }
+  ]
+}

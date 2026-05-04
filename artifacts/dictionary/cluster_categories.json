@@ -1,0 +1,682 @@
+{
+  "0": {
+    "n_tokens": 13,
+    "examples": [
+      "chey",
+      "okeey",
+      "l",
+      "okey",
+      "cheal",
+      "okeeey",
+      "teey",
+      "qokeeo"
+    ],
+    "top_visual_features": [
+      "has_moon_face",
+      "n_paragraphs",
+      "n_decorative_motifs"
+    ],
+    "dominant_sections": {
+      "recipes": 0.8461538461538461,
+      "pharmaceutical": 0.15384615384615385
+    },
+    "label_dominance": 0.004
+  },
+  "1": {
+    "n_tokens": 31,
+    "examples": [
+      "oteedy",
+      "sain",
+      "shckhy",
+      "checkhy",
+      "cheedy",
+      "lchey",
+      "lkeey",
+      "olkeey"
+    ],
+    "top_visual_features": [
+      "has_central_star",
+      "n_paragraphs",
+      "n_decorative_motifs"
+    ],
+    "dominant_sections": {
+      "recipes": 0.5483870967741935,
+      "biological": 0.45161290322580644
+    },
+    "label_dominance": 0.002
+  },
+  "2": {
+    "n_tokens": 76,
+    "examples": [
+      "shody",
+      "sy",
+      "sheody",
+      "she",
+      "qoaiin",
+      "shodaiin",
+      "kchey",
+      "chain"
+    ],
+    "top_visual_features": [
+      "has_moon_face",
+      "fragments_are_whole_plants",
+      "has_star_motif"
+    ],
+    "dominant_sections": {
+      "herbal": 0.9078947368421053,
+      "pharmaceutical": 0.05263157894736842
+    },
+    "label_dominance": 0.017
+  },
+  "3": {
+    "n_tokens": 97,
+    "examples": [
+      "sal",
+      "chees",
+      "oraiin",
+      "qokchey",
+      "okeody",
+      "olol",
+      "opaiin",
+      "qokeeody"
+    ],
+    "top_visual_features": [
+      "has_T_O_diagram",
+      "has_moon_face",
+      "has_central_object"
+    ],
+    "dominant_sections": {
+      "recipes": 0.44329896907216493,
+      "herbal": 0.28865979381443296
+    },
+    "label_dominance": 0.038
+  },
+  "4": {
+    "n_tokens": 40,
+    "examples": [
+      "chol",
+      "chor",
+      "cho",
+      "okol",
+      "cthey",
+      "chodaiin",
+      "chaiin",
+      "choky"
+    ],
+    "top_visual_features": [
+      "has_moon_face",
+      "has_star_motif",
+      "n_petals"
+    ],
+    "dominant_sections": {
+      "herbal": 1.0
+    },
+    "label_dominance": 0.004
+  },
+  "5": {
+    "n_tokens": 13,
+    "examples": [
+      "qokeey",
+      "qokeedy",
+      "qol",
+      "qokey",
+      "lchedy",
+      "sol",
+      "qoteedy",
+      "sheedy"
+    ],
+    "top_visual_features": [
+      "n_nymphs",
+      "n_pools",
+      "has_water"
+    ],
+    "dominant_sections": {
+      "biological": 0.6923076923076923,
+      "recipes": 0.3076923076923077
+    },
+    "label_dominance": 0.0
+  },
+  "6": {
+    "n_tokens": 12,
+    "examples": [
+      "r",
+      "o",
+      "d",
+      "k",
+      "m",
+      "x",
+      "t",
+      "f"
+    ],
+    "top_visual_features": [
+      "has_marginal_annotation",
+      "fragments_are_whole_plants",
+      "has_star_motif"
+    ],
+    "dominant_sections": {
+      "cosmological": 0.75,
+      "herbal": 0.16666666666666666
+    },
+    "label_dominance": 0.004
+  },
+  "7": {
+    "n_tokens": 22,
+    "examples": [
+      "qokedy",
+      "otedy",
+      "qoke@152;y",
+      "qokee@152;y",
+      "okedy",
+      "okeedy",
+      "qotedy",
+      "ote@152;y"
+    ],
+    "top_visual_features": [
+      "n_nymphs",
+      "n_pools",
+      "has_water"
+    ],
+    "dominant_sections": {
+      "recipes": 0.5454545454545454,
+      "biological": 0.45454545454545453
+    },
+    "label_dominance": 0.004
+  },
+  "8": {
+    "n_tokens": 21,
+    "examples": [
+      "s",
+      "cheor",
+      "cheody",
+      "cheo",
+      "sheo",
+      "chos",
+      "cheos",
+      "oteol"
+    ],
+    "top_visual_features": [
+      "spiral_turns",
+      "has_spiral",
+      "n_beads"
+    ],
+    "dominant_sections": {
+      "herbal": 0.6190476190476191,
+      "recipes": 0.14285714285714285
+    },
+    "label_dominance": 0.028
+  },
+  "9": {
+    "n_tokens": 21,
+    "examples": [
+      "aiin",
+      "ar",
+      "al",
+      "am",
+      "air",
+      "aiiin",
+      "oteody",
+      "yteey"
+    ],
+    "top_visual_features": [
+      "has_T_O_diagram",
+      "spiral_turns",
+      "has_spiral"
+    ],
+    "dominant_sections": {
+      "recipes": 0.7142857142857143,
+      "zodiac": 0.19047619047619047
+    },
+    "label_dominance": 0.02
+  },
+  "10": {
+    "n_tokens": 43,
+    "examples": [
+      "dar",
+      "qotaiin",
+      "cheky",
+      "tar",
+      "@152;y",
+      "ody",
+      "@152;ain",
+      "@152;am"
+    ],
+    "top_visual_features": [
+      "has_central_object",
+      "spiral_turns",
+      "n_beads"
+    ],
+    "dominant_sections": {
+      "herbal": 0.5116279069767442,
+      "recipes": 0.3023255813953488
+    },
+    "label_dominance": 0.033
+  },
+  "11": {
+    "n_tokens": 9,
+    "examples": [
+      "oty",
+      "sheol",
+      "qoty",
+      "qotol",
+      "shcthy",
+      "opchey",
+      "qokchedy",
+      "shdy"
+    ],
+    "top_visual_features": [
+      "n_petals",
+      "n_paragraphs",
+      "n_decorative_motifs"
+    ],
+    "dominant_sections": {
+      "herbal": 0.4444444444444444,
+      "recipes": 0.4444444444444444
+    },
+    "label_dominance": 0.01
+  },
+  "12": {
+    "n_tokens": 8,
+    "examples": [
+      "qokaiin",
+      "qokar",
+      "chckhy",
+      "okain",
+      "otain",
+      "chcthy",
+      "chal",
+      "kain"
+    ],
+    "top_visual_features": [
+      "n_paragraphs",
+      "n_decorative_motifs",
+      "n_stars"
+    ],
+    "dominant_sections": {
+      "recipes": 0.75,
+      "herbal": 0.25
+    },
+    "label_dominance": 0.004
+  },
+  "13": {
+    "n_tokens": 33,
+    "examples": [
+      "shol",
+      "chy",
+      "otol",
+      "chody",
+      "shy",
+      "qokchy",
+      "dor",
+      "dam"
+    ],
+    "top_visual_features": [
+      "has_moon_face",
+      "n_petals",
+      "fragments_are_whole_plants"
+    ],
+    "dominant_sections": {
+      "herbal": 1.0
+    },
+    "label_dominance": 0.008
+  },
+  "14": {
+    "n_tokens": 10,
+    "examples": [
+      "oky",
+      "dair",
+      "odaiin",
+      "ytaiin",
+      "ykaiin",
+      "otor",
+      "shar",
+      "ytar"
+    ],
+    "top_visual_features": [
+      "has_moon_face",
+      "n_decorative_motifs",
+      "n_paragraphs"
+    ],
+    "dominant_sections": {
+      "herbal": 0.8,
+      "recipes": 0.2
+    },
+    "label_dominance": 0.041
+  },
+  "15": {
+    "n_tokens": 15,
+    "examples": [
+      "daiin",
+      "dy",
+      "dain",
+      "qokol",
+      "dol",
+      "tol",
+      "okchey",
+      "qokeody"
+    ],
+    "top_visual_features": [
+      "has_central_object",
+      "has_T_O_diagram",
+      "fragments_are_whole_plants"
+    ],
+    "dominant_sections": {
+      "herbal": 0.8,
+      "biological": 0.13333333333333333
+    },
+    "label_dominance": 0.002
+  },
+  "16": {
+    "n_tokens": 47,
+    "examples": [
+      "qoky",
+      "saiin",
+      "oly",
+      "olkeedy",
+      "sair",
+      "cheeky",
+      "qokam",
+      "kedy"
+    ],
+    "top_visual_features": [
+      "has_T_O_diagram",
+      "spiral_turns",
+      "n_beads"
+    ],
+    "dominant_sections": {
+      "biological": 0.6382978723404256,
+      "recipes": 0.3617021276595745
+    },
+    "label_dominance": 0.0
+  },
+  "17": {
+    "n_tokens": 24,
+    "examples": [
+      "sho",
+      "cthy",
+      "shor",
+      "qotchy",
+      "cthol",
+      "cthor",
+      "otchy",
+      "choty"
+    ],
+    "top_visual_features": [
+      "has_central_object",
+      "spiral_turns",
+      "has_spiral"
+    ],
+    "dominant_sections": {
+      "herbal": 1.0
+    },
+    "label_dominance": 0.007
+  },
+  "18": {
+    "n_tokens": 15,
+    "examples": [
+      "cheol",
+      "sheey",
+      "@152;aiin",
+      "okeol",
+      "ykeey",
+      "qo",
+      "keey",
+      "qokeol"
+    ],
+    "top_visual_features": [
+      "n_petals",
+      "has_moon_face",
+      "has_star_motif"
+    ],
+    "dominant_sections": {
+      "pharmaceutical": 0.4,
+      "herbal": 0.3333333333333333
+    },
+    "label_dominance": 0.001
+  },
+  "19": {
+    "n_tokens": 69,
+    "examples": [
+      "dal",
+      "qoteey",
+      "@152;al",
+      "daly",
+      "kal",
+      "tal",
+      "qotchdy",
+      "yteedy"
+    ],
+    "top_visual_features": [
+      "has_moon_face",
+      "has_central_object",
+      "n_petals"
+    ],
+    "dominant_sections": {
+      "recipes": 0.4492753623188406,
+      "biological": 0.30434782608695654
+    },
+    "label_dominance": 0.011
+  },
+  "20": {
+    "n_tokens": 2,
+    "examples": [
+      "oteey",
+      "otey"
+    ],
+    "top_visual_features": [
+      "n_concentric_rings",
+      "n_human_figures",
+      "has_circular_structure"
+    ],
+    "dominant_sections": {
+      "recipes": 1.0
+    },
+    "label_dominance": 0.012
+  },
+  "21": {
+    "n_tokens": 60,
+    "examples": [
+      "sar",
+      "raiin",
+      "olaiin",
+      "okee@152;y",
+      "ycheey",
+      "shear",
+      "chedaiin",
+      "okam"
+    ],
+    "top_visual_features": [
+      "has_T_O_diagram",
+      "has_moon_face",
+      "n_petals"
+    ],
+    "dominant_sections": {
+      "recipes": 0.6833333333333333,
+      "herbal": 0.16666666666666666
+    },
+    "label_dominance": 0.03
+  },
+  "22": {
+    "n_tokens": 56,
+    "examples": [
+      "shey",
+      "lkaiin",
+      "sheky",
+      "chckhey",
+      "olor",
+      "{ch'}eey",
+      "orain",
+      "ral"
+    ],
+    "top_visual_features": [
+      "has_central_star",
+      "has_T_O_diagram",
+      "has_star_motif"
+    ],
+    "dominant_sections": {
+      "recipes": 0.6071428571428571,
+      "biological": 0.32142857142857145
+    },
+    "label_dominance": 0.005
+  },
+  "23": {
+    "n_tokens": 11,
+    "examples": [
+      "okaiin",
+      "otaiin",
+      "okal",
+      "otal",
+      "okar",
+      "char",
+      "kaiin",
+      "kar"
+    ],
+    "top_visual_features": [
+      "spiral_turns",
+      "has_spiral",
+      "n_beads"
+    ],
+    "dominant_sections": {
+      "recipes": 0.6363636363636364,
+      "herbal": 0.36363636363636365
+    },
+    "label_dominance": 0.02
+  },
+  "24": {
+    "n_tokens": 29,
+    "examples": [
+      "chedy",
+      "qokain",
+      "shedy",
+      "qokal",
+      "che@152;y",
+      "she@152;y",
+      "qotal",
+      "qotain"
+    ],
+    "top_visual_features": [
+      "n_nymphs",
+      "has_water",
+      "n_pools"
+    ],
+    "dominant_sections": {
+      "biological": 0.8620689655172413,
+      "recipes": 0.13793103448275862
+    },
+    "label_dominance": 0.0
+  },
+  "25": {
+    "n_tokens": 8,
+    "examples": [
+      "otar",
+      "chdy",
+      "qotar",
+      "otam",
+      "ch@152;y",
+      "opchedy",
+      "qokchdy",
+      "qokch@152;y"
+    ],
+    "top_visual_features": [
+      "has_moon_face",
+      "n_paragraphs",
+      "n_decorative_motifs"
+    ],
+    "dominant_sections": {
+      "recipes": 0.625,
+      "herbal": 0.375
+    },
+    "label_dominance": 0.01
+  },
+  "26": {
+    "n_tokens": 68,
+    "examples": [
+      "y",
+      "taiin",
+      "@221;r",
+      "ols",
+      "@152;air",
+      "odain",
+      "chokaiin",
+      "dl"
+    ],
+    "top_visual_features": [
+      "has_central_star",
+      "has_moon_face",
+      "spiral_turns"
+    ],
+    "dominant_sections": {
+      "recipes": 0.4264705882352941,
+      "herbal": 0.3235294117647059
+    },
+    "label_dominance": 0.05
+  },
+  "27": {
+    "n_tokens": 8,
+    "examples": [
+      "ol",
+      "or",
+      "cheey",
+      "ain",
+      "chear",
+      "ches",
+      "chl",
+      "ary"
+    ],
+    "top_visual_features": [
+      "n_paragraphs",
+      "n_decorative_motifs",
+      "has_central_star"
+    ],
+    "dominant_sections": {
+      "recipes": 0.75,
+      "biological": 0.125
+    },
+    "label_dominance": 0.022
+  },
+  "28": {
+    "n_tokens": 92,
+    "examples": [
+      "sor",
+      "otchey",
+      "qokor",
+      "keody",
+      "cham",
+      "teol",
+      "ory",
+      "soiin"
+    ],
+    "top_visual_features": [
+      "has_moon_face",
+      "n_petals",
+      "has_central_object"
+    ],
+    "dominant_sections": {
+      "herbal": 0.532608695652174,
+      "recipes": 0.2391304347826087
+    },
+    "label_dominance": 0.028
+  },
+  "29": {
+    "n_tokens": 65,
+    "examples": [
+      "qodaiin",
+      "daiir",
+      "chockhy",
+      "om",
+      "chs",
+      "ykeol",
+      "qody",
+      "yteody"
+    ],
+    "top_visual_features": [
+      "has_central_object",
+      "has_T_O_diagram",
+      "has_moon_face"
+    ],
+    "dominant_sections": {
+      "herbal": 0.6153846153846154,
+      "recipes": 0.18461538461538463
+    },
+    "label_dominance": 0.026
+  }
+}

@@ -26,6 +26,10 @@
 | 4 | 내적 검증 (4종) | ✅ done | ✅ 3/4 통과 | `artifacts/validation/phase4_results.json` |
 | 5 | 이미지-텍스트 매핑 | ⚠️ done | partial | `artifacts/mapping/phase5*_results.json` |
 | F | 최종 보고 | ✅ done | — | `final_report.md` |
+| 6 | 단어별 분포·역할 프로파일 | ✅ done | — | `artifacts/dictionary/token_profile.csv` |
+| 7 | 카테고리 사전 + 이미지 앵커 | ✅ done | — | `artifacts/dictionary/dictionary.csv` |
+| 8 | 폴리오별 interlinear gloss | ✅ done | 11 폴리오 | `artifacts/translation/*.gloss.md` |
+| 9 | 신뢰도 보고서 | ✅ done | 50/50 p<0.01 유의 | `artifacts/dictionary/reliability_report.md` |
 
 ---
 
@@ -140,24 +144,77 @@
 
 ---
 
-## 산출물 위치
+## Phase 6-9: 사전·번역·신뢰도 (사용자 추가 요청)
+
+### Phase 6 — 토큰 프로파일
+
+- 9,439 unique types 중 빈도 ≥10 = 536, ≥5 = 1,018, hapax = 6,760
+- Label-dominant 토큰 397개 (라벨 위치 ≥70%)
+- 발견: `chedy`, `qokain`, `qokeedy`는 Currier B에 압도적 (>97%); `chor`는 A에 압도적 (84%) — 방언 마커
+
+### Phase 7 — 카테고리 사전
+
+- 1,018 토큰을 KMeans(k=30)로 클러스터링 (silhouette=0.116, 약함)
+- 토큰 ↔ 비전 특성 PMI/NPMI 계산 → 10,060개 양의 PMI 페어
+- **1,015/1,018 토큰 (99.7%)이 적어도 하나의 양의 anchor 보유**
+- 강한 후보 예시: `qokain` → n_nymphs (NPMI=+0.63), has_water, n_pools — biological 섹션 강한 연관
+
+### Phase 8 — Interlinear Gloss
+
+- 11개 다양한 섹션 폴리오에 대해 토큰 → `category[anchor|tier]` 형식 gloss 생성
+- 한계: 라벨 토큰 다수가 hapax (UNK) — 페이지별 라벨이 단일 폴리오에만 등장하는 구조적 제약
+
+### Phase 9 — 신뢰도 보고서 (★ 핵심)
+
+| 지표 | 값 |
+|------|-----|
+| 사전 instance 커버리지 | **71.1%** |
+| 순열 검정 상위 50 페어 p<0.01 유의 | **50/50 (100%)** |
+| Procrustes Recall@1 95% CI | 0.195 [0.095, 0.286] |
+| Procrustes Recall@5 95% CI | **0.668 [0.499, 0.810]** |
+| Ridge Recall@1 95% CI | 0.207 [0.095, 0.333] |
+| Random baseline Recall@1 | ~0.05 |
+
+**해석**:
+- 우리가 추출한 상위 anchor 페어가 *모두* random보다 통계적으로 명확히 강함 (50/50 p<0.01)
+- Procrustes Recall@5의 CI 하한 0.499 > random×3 → 매핑 신호 견고
+- Calibration: 각 빈도 tier에서 strong anchor 비율 85-91% — 일관된 신호
+
+**결론**: 사전이 노이즈와 통계적으로 구별됨. 단 *결정론적 번역이 아닌* 확률적 카테고리 + 시각 연관 수준.
+
+## 산출물 위치 (전체)
 
 ```
 voynich-xeno/
 ├── work_log.md                                # ← 이 파일
 ├── final_report.md                            # 최종 결과 보고
-├── requirements.txt                           # Python 의존성
+├── requirements.txt
 ├── scripts/
 │   ├── phase1_normalize.py
 │   ├── phase2_stats.py
 │   ├── phase3_embed.py
 │   ├── phase4_validate.py
 │   ├── phase5_mapping.py
-│   └── phase5b_detailed_only.py
+│   ├── phase5b_detailed_only.py
+│   ├── phase6_token_profile.py
+│   ├── phase7_dictionary.py
+│   ├── phase8_gloss.py
+│   └── phase9_reliability.py
 └── artifacts/
-    ├── corpus/        # parquet + Phase 1 log
-    ├── stats/         # Phase 2 results
-    ├── embeddings/    # 18 KV 파일 + json (gitignored)
-    ├── validation/    # Phase 4 results
-    └── mapping/       # Phase 5/5b results
+    ├── corpus/                                # Phase 1
+    ├── stats/                                 # Phase 2
+    ├── embeddings/  (gitignored)              # Phase 3
+    ├── validation/                            # Phase 4
+    ├── mapping/                               # Phase 5/5b
+    ├── dictionary/                            # Phase 6/7/9
+    │   ├── token_profile.{csv,parquet}
+    │   ├── dictionary.{csv,parquet}
+    │   ├── token_feature_pmi.parquet
+    │   ├── cluster_categories.json
+    │   ├── permutation_test.json
+    │   ├── bootstrap_recall.json
+    │   └── reliability_report.md             # ★ 핵심 보고서
+    └── translation/                           # Phase 8
+        ├── index.md
+        └── *.gloss.md
 ```

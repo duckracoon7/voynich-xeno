@@ -1,0 +1,46 @@
+Total token instances: 37,982
+Unique types: 9,439
+
+=== Phase 6 Token Profile ===
+Total tokens: 9,439
+Hapax (freq=1): 6,760
+Frequent (freq>=10): 536
+Label-dominant (in_label_pct >= 0.7): 397
+Body-dominant (in_paragraph_pct >= 0.9): 7,245
+
+Top 20 tokens:
+  token  freq  n_folios  length first_char last_char  in_label_pct  in_paragraph_pct    A_pct    B_pct dominant_section  dominant_section_pct  is_hapax  specificity
+  daiin   717       195       5          d         n      0.004184          0.926081 0.598326 0.362320           herbal              0.549512     False     0.549512
+     ol   561       124       2          o         l      0.000000          0.944742 0.203209 0.773338       biological              0.422460     False     0.422460
+   aiin   510       132       4          a         n      0.000000          0.886275 0.180392 0.748755          recipes              0.425490     False     0.425490
+     ar   392       115       2          a         r      0.015306          0.826531 0.132653 0.729345          recipes              0.466837     False     0.466837
+     or   368       125       2          o         r      0.002717          0.904891 0.271739 0.700570           herbal              0.328804     False     0.328804
+   chol   364       146       4          c         l      0.005495          0.936813 0.706044 0.249516           herbal              0.574176     False     0.574176
+  chedy   339        71       5          c         y      0.000000          0.938053 0.002950 0.985242       biological              0.410029     False     0.410029
+   chey   337       112       4          c         y      0.000000          0.925816 0.231454 0.723539          recipes              0.350148     False     0.350148
+      s   323       142       1          s         s      0.012384          0.876161 0.591331 0.309032           herbal              0.529412     False     0.529412
+ qokeey   294        78       6          q         y      0.000000          0.965986 0.132653 0.853356          recipes              0.551020     False     0.551020
+    dar   282       126       3          d         r      0.010638          0.890071 0.312057 0.605713           herbal              0.351064     False     0.351064
+ qokain   272        47       6          q         n      0.000000          0.977941 0.014706 0.985241       biological              0.573529     False     0.573529
+     al   260        81       2          a         l      0.003846          0.869231 0.103846 0.772768          recipes              0.603846     False     0.603846
+qokaiin   255        67       7          q         n      0.000000          0.984314 0.078431 0.921285          recipes              0.482353     False     0.482353
+  shedy   252        67       5          s         y      0.000000          0.928571 0.003968 0.972207       biological              0.496032     False     0.496032
+   shey   231        91       4          s         y      0.000000          0.956710 0.233766 0.704914          recipes              0.316017     False     0.316017
+qokeedy   220        50       7          q         y      0.000000          0.959091 0.000000 1.000000       biological              0.531818     False     0.531818
+   chor   213       113       4          c         r      0.009390          0.962441 0.840376 0.140292           herbal              0.727700     False     0.727700
+     dy   202       119       2          d         y      0.004950          0.876238 0.455446 0.429724           herbal              0.500000     False     0.500000
+ okaiin   200        94       6          o         n      0.025000          0.930000 0.165000 0.794345          recipes              0.450000     False     0.450000
+
+Section distribution of tokens (dominant):
+dominant_section
+herbal            3125
+recipes           2780
+biological        1196
+pharmaceutical     629
+cosmological       494
+zodiac             450
+text               392
+astronomical       373
+Name: count, dtype: int64
+
+✅ Phase 6 token profile complete

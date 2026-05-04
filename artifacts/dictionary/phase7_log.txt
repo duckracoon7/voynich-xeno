@@ -1,0 +1,27 @@
+Tokens with freq>=5 and in vocab: 1018
+Silhouette (k=30): 0.116
+
+=== Phase 7 Dictionary ===
+Dictionary entries: 1,018
+Anchor candidates (token-feature pairs with PMI>0): 10,060
+Tokens with at least one positive anchor: 1,015
+
+Top 15 dictionary entries:
+  token  freq  n_folios  in_label_pct dominant_section                                                      category                                                                                                    top_anchors
+  daiin   717       195      0.004184           herbal [body] herbal/biological | has_central_object+has_T_O_diagram         n_plant_fragments(npmi=+0.06, n=16) | has_container(npmi=+0.05, n=15) | n_containers(npmi=+0.05, n=13)
+     ol   561       124      0.000000       biological  [body] recipes/biological | n_paragraphs+n_decorative_motifs             n_paragraphs(npmi=+0.27, n=25) | n_decorative_motifs(npmi=+0.25, n=25) | n_stars(npmi=+0.22, n=27)
+   aiin   510       132      0.000000          recipes          [body] recipes/zodiac | has_T_O_diagram+spiral_turns             n_paragraphs(npmi=+0.24, n=25) | n_decorative_motifs(npmi=+0.23, n=25) | n_stars(npmi=+0.19, n=27)
+     ar   392       115      0.015306          recipes          [body] recipes/zodiac | has_T_O_diagram+spiral_turns n_decorative_motifs(npmi=+0.31, n=26) | n_paragraphs(npmi=+0.31, n=25) | has_radial_symmetry(npmi=+0.29, n=25)
+     or   368       125      0.002717           herbal  [body] recipes/biological | n_paragraphs+n_decorative_motifs             n_decorative_motifs(npmi=+0.23, n=24) | n_paragraphs(npmi=+0.22, n=23) | n_stars(npmi=+0.17, n=25)
+   chol   364       146      0.005495           herbal                  [body] herbal | has_moon_face+has_star_motif             n_decorative_motifs(npmi=+0.16, n=24) | n_paragraphs(npmi=+0.15, n=23) | n_stars(npmi=+0.12, n=26)
+  chedy   339        71      0.000000       biological                [body] biological/recipes | n_nymphs+has_water             n_paragraphs(npmi=+0.47, n=23) | n_decorative_motifs(npmi=+0.45, n=23) | n_stars(npmi=+0.43, n=25)
+   chey   337       112      0.000000          recipes    [body] recipes/pharmaceutical | has_moon_face+n_paragraphs             n_decorative_motifs(npmi=+0.28, n=24) | n_paragraphs(npmi=+0.27, n=23) | n_stars(npmi=+0.24, n=26)
+      s   323       142      0.012384           herbal               [body] herbal/recipes | spiral_turns+has_spiral         n_plant_fragments(npmi=+0.18, n=16) | has_container(npmi=+0.17, n=15) | n_containers(npmi=+0.16, n=13)
+ qokeey   294        78      0.000000          recipes                  [body] biological/recipes | n_nymphs+n_pools                        n_stars(npmi=+0.36, n=24) | n_paragraphs(npmi=+0.37, n=21) | n_nymphs(npmi=+0.40, n=18)
+    dar   282       126      0.010638           herbal       [body] herbal/recipes | has_central_object+spiral_turns             n_decorative_motifs(npmi=+0.13, n=20) | n_pipes(npmi=+0.15, n=13) | n_paragraphs(npmi=+0.13, n=19)
+ qokain   272        47      0.000000       biological                [body] biological/recipes | n_nymphs+has_water                           n_nymphs(npmi=+0.63, n=19) | has_water(npmi=+0.61, n=19) | n_pools(npmi=+0.61, n=17)
+     al   260        81      0.003846          recipes          [body] recipes/zodiac | has_T_O_diagram+spiral_turns             n_paragraphs(npmi=+0.47, n=25) | n_decorative_motifs(npmi=+0.45, n=25) | n_stars(npmi=+0.39, n=26)
+qokaiin   255        67      0.000000          recipes      [body] recipes/herbal | n_paragraphs+n_decorative_motifs             n_paragraphs(npmi=+0.52, n=24) | n_decorative_motifs(npmi=+0.51, n=24) | n_stars(npmi=+0.43, n=24)
+  shedy   252        67      0.000000       biological                [body] biological/recipes | n_nymphs+has_water            n_paragraphs(npmi=+0.50, n=23) | n_decorative_motifs(npmi=+0.48, n=23) | n_nymphs(npmi=+0.49, n=19)
+
+✅ Phase 7 dictionary complete

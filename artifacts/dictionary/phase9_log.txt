@@ -1,0 +1,38 @@
+=== Phase 9: Reliability Report ===
+
+[1/4] Dictionary coverage...
+{
+  "total_token_instances": 37982,
+  "instance_coverage": 0.7110473382128376,
+  "total_unique_types": 9439,
+  "unique_in_dict": 1018,
+  "unique_coverage": 0.10785040788219091
+}
+
+[2/4] Confidence calibration...
+{
+  "n_per_tier": {
+    "rare": 482,
+    "moderate": 351,
+    "common": 130,
+    "very_common": 55
+  },
+  "strong_anchor_rate_by_tier": {
+    "common": 0.9076923076923077,
+    "moderate": 0.9145299145299145,
+    "rare": 0.8983402489626556,
+    "very_common": 0.8545454545454545
+  }
+}
+
+[3/4] Permutation test (1000 runs)...
+  Tested 50 top pairs.
+  Significant at p<0.05: 50 (100.0%)
+  Significant at p<0.01: 50
+
+[4/4] Bootstrap retrieval (500 runs)...
+  Procrustes Recall@1: 0.195 [0.095, 0.286]
+  Ridge Recall@1:      0.207 [0.095, 0.333]
+  Procrustes Recall@5: 0.668 [0.499, 0.810]
+
+✅ Phase 9 reliability report saved to /Users/aiden-kwak/Desktop/Personal/boinichi/artifacts/dictionary/reliability_report.md
